@@ -9,8 +9,8 @@
 	</head>
 	<body>
 		<!-- Navigation Menu -->
-		<nav>
-			<div>
+		<nav class="nav">
+			<div class="nav__container">
 				<div>Logo</div>
 				<ul>
 					<li><a href="#home">Home</a></li>
@@ -21,8 +21,8 @@
 		</nav>
 
 		<!-- Banner Section -->
-		<section id="home">
-			<div>
+		<section class="banner-section" id="home">
+			<div class="banner__container">
 				<h1>Welcome to Our Landing Page</h1>
 				<p>Discover amazing features and join our community today!</p>
 				<a href="#contact">Get Started</a>
@@ -31,11 +31,11 @@
 
 		<!-- Content Section 1: About -->
 		<section id="about">
-			<div>
+			<div class="aboutUs__container">
 				<h2>About Us</h2>
-				<div>
+				<div class="info__container">
 					<div>
-						<img src="https://via.placeholder.com/600x400" alt="About Image" />
+						<img src="img/aboutUsimage.webp" class="aboutUsimage" alt="About Image" />
 					</div>
 					<div>
 						<p>
@@ -50,9 +50,9 @@
 
 		<!-- Content Section 2: Features -->
 		<section id="features">
-			<div>
+			<div class="features__container">
 				<h2>Our Features</h2>
-				<div>
+				<div class="features__info">
 					<div>
 						<h3>Feature One</h3>
 						<p>Experience unparalleled performance with our state-of-the-art technology.</p>
@@ -71,16 +71,18 @@
 
 		<!-- Footer Section -->
 		<footer id="contact">
-			<div>
-				<h3>Contact Us</h3>
-				<p>Have questions? Reach out to us at <a href="mailto:info@example.com">info@example.com</a></p>
+			<div class="footer__container">
 				<div>
+					<h3>Contact Us</h3>
+					<p>Have questions? Reach out to us at <a href="mailto:info@example.com">info@example.com</a></p>
+				</div>
+				<div class="footer__links">
 					<a href="#">Twitter</a>
 					<a href="#">Facebook</a>
 					<a href="#">LinkedIn</a>
 				</div>
-				<p>© 2025 Your Company. All rights reserved.</p>
 			</div>
+			<p>© 2025 Your Company. All rights reserved.</p>
 		</footer>
 	</body>
 </html>
